@@ -1,0 +1,83 @@
+A1 to D6 console output:
+...
+OPENLIST after:
+CSF: 1.8 weight: 1 D1: (3, 0) CSF: 1.9 weight: 1 E1: (4, 0) CSF: 1.9 weight: 1 F2: (5, 1) CSF: 2 weight: 1 A3: (0, 2) CSF: 2 weight: 1 F3: (5, 2) CSF: 1.6 weight: 0.5 D6: (3, 5)
+CSF: 2.1 weight: 1 F4: (5, 3) CSF: 1.7 weight: 0.5 B4: (1, 3) CSF: 2.2 weight: 1 E6: (4, 5) CSF: 2.2 weight: 1 F5: (5, 4) CSF: 2.3 weight: 1 A5: (0, 4) CSF: 2.4 weight: 1 A6: (0, 5)
+closing list now:
+
+CSF: 0 weight: 0.1 A1: (0, 0) CSF: 0.1 weight: 0.1 B1: (1, 0) CSF: 0.2 weight: 0.1 B2: (1, 1) CSF: 0.7 weight: 0.5 C2: (2, 1) CSF: 0.8 weight: 0.1 D2: (3, 1) CSF: 0.9 weight: 0.1 D3: (3, 2)
+CSF: 0.9 weight: 0.1 E2: (4, 1) CSF: 1 weight: 1 A2: (0, 1) CSF: 1 weight: 0.1 D4: (3, 3) CSF: 1 weight: 0.1 E3: (4, 2) CSF: 1.1 weight: 1 C1: (2, 0) CSF: 1.1 weight: 0.1 D5: (3, 4)
+CSF: 1.1 weight: 0.1 E4: (4, 3) CSF: 1.2 weight: 1 B3: (1, 2) CSF: 1.2 weight: 0.5 C3: (2, 2) CSF: 1.2 weight: 0.1 E5: (4, 4) CSF: 1.2 weight: 0.1 C5: (2, 4) CSF: 1.3 weight: 0.1 C6: (2, 5)
+CSF: 1.3 weight: 0.1 B5: (1, 4) CSF: 1.4 weight: 0.1 B6: (1, 5) CSF: 1.5 weight: 0.5 C4: (2, 3) CSF: 1.6 weight: 0.5 D6: (3, 5)
+22
+totalCost: 1.6
+A1B1B2C2D2D3D4D5D6
+unvisited now:
+
+CSF: 9999 weight: 1 A4: (0, 3) CSF: 9999 weight: 1 F1: (5, 0) CSF: 9999 weight: 1 F6: (5, 5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B5 to D4 console output:
+...
+OPENLIST after:
+CSF: 0.5 weight: 0.5 B4: (1, 3) CSF: 1 weight: 1 A5: (0, 4) CSF: 1.1 weight: 1 A6: (0, 5) CSF: 0.6 weight: 0.5 C4: (2, 3) CSF: 0.7 weight: 0.5 D6: (3, 5) CSF: 0.3 weight: 0.1 D4: (3, 3)
+CSF: 0.3 weight: 0.1 E5: (4, 4) CSF: 0.4 weight: 0.1 D3: (3, 2) CSF: 0.4 weight: 0.1 E4: (4, 3)
+closing list now:
+
+CSF: 0 weight: 0.1 B5: (1, 4) CSF: 0.1 weight: 0.1 B6: (1, 5) CSF: 0.1 weight: 0.1 C5: (2, 4) CSF: 0.2 weight: 0.1 C6: (2, 5) CSF: 0.2 weight: 0.1 D5: (3, 4) CSF: 0.3 weight: 0.1 D4: (3, 3)
+6
+totalCost: 0.3
+B5C5D5D4
+unvisited now:
+
+CSF: 9999 weight: 0.1 A1: (0, 0) CSF: 9999 weight: 1 A2: (0, 1) CSF: 9999 weight: 1 A3: (0, 2) CSF: 9999 weight: 1 A4: (0, 3) CSF: 9999 weight: 0.1 B1: (1, 0) CSF: 9999 weight: 0.1 B2: (1, 1)
+CSF: 9999 weight: 1 B3: (1, 2) CSF: 9999 weight: 1 C1: (2, 0) CSF: 9999 weight: 0.5 C2: (2, 1) CSF: 9999 weight: 0.5 C3: (2, 2) CSF: 9999 weight: 1 D1: (3, 0) CSF: 9999 weight: 0.1 D2: (3, 1)
+CSF: 9999 weight: 1 E1: (4, 0) CSF: 9999 weight: 0.1 E2: (4, 1) CSF: 9999 weight: 0.1 E3: (4, 2) CSF: 9999 weight: 1 E6: (4, 5) CSF: 9999 weight: 1 F1: (5, 0) CSF: 9999 weight: 1 F2: (5, 1)
+CSF: 9999 weight: 1 F3: (5, 2) CSF: 9999 weight: 1 F4: (5, 3) CSF: 9999 weight: 1 F5: (5, 4) CSF: 9999 weight: 1 F6: (5, 5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B2 to B5 console output:
+...
+OPENLIST after:
+CSF: 1.6 weight: 1 D1: (3, 0) CSF: 1.7 weight: 1 E1: (4, 0) CSF: 1.7 weight: 1 F2: (5, 1) CSF: 1.3 weight: 0.5 C4: (2, 3) CSF: 1.8 weight: 1 F3: (5, 2) CSF: 1.4 weight: 0.5 D6: (3, 5)
+CSF: 1.9 weight: 1 F4: (5, 3) CSF: 1.5 weight: 0.5 B4: (1, 3) CSF: 2 weight: 1 A3: (0, 2) CSF: 2 weight: 1 E6: (4, 5) CSF: 2 weight: 1 F5: (5, 4) CSF: 1.1 weight: 0.1 B5: (1, 4)
+CSF: 1.2 weight: 0.1 B6: (1, 5) CSF: 2.1 weight: 1 A5: (0, 4)
+closing list now:
+
+CSF: 0 weight: 0.1 B2: (1, 1) CSF: 0.1 weight: 0.1 B1: (1, 0) CSF: 0.2 weight: 0.1 A1: (0, 0) CSF: 0.5 weight: 0.5 C2: (2, 1) CSF: 0.6 weight: 0.1 D2: (3, 1) CSF: 0.7 weight: 0.1 D3: (3, 2)
+CSF: 0.7 weight: 0.1 E2: (4, 1) CSF: 0.8 weight: 0.1 D4: (3, 3) CSF: 0.8 weight: 0.1 E3: (4, 2) CSF: 0.9 weight: 0.1 D5: (3, 4) CSF: 0.9 weight: 0.1 E4: (4, 3) CSF: 1 weight: 1 B3: (1, 2)
+CSF: 1 weight: 1 A2: (0, 1) CSF: 1 weight: 0.5 C3: (2, 2) CSF: 1 weight: 0.1 E5: (4, 4) CSF: 1 weight: 0.1 C5: (2, 4) CSF: 1.1 weight: 1 C1: (2, 0) CSF: 1.1 weight: 0.1 C6: (2, 5)
+CSF: 1.1 weight: 0.1 B5: (1, 4)
+19
+totalCost: 1.1
+B2C2D2D3D4D5C5B5
+unvisited now:
+
+CSF: 9999 weight: 1 A4: (0, 3) CSF: 9999 weight: 1 A6: (0, 5) CSF: 9999 weight: 1 F1: (5, 0) CSF: 9999 weight: 1 F6: (5, 5)
