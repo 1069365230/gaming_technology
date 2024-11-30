@@ -1,0 +1,7 @@
+Create an empty scene with a plane at height 0.
+
+Create a cube with a mass of 1 and let it fall three times (randomly rotated) onto the plane from 5 meter height.
+
+You can use the results from the previous task for finding the contacts, or simply assume that each vertex of the box with y-coordinate <0 is a face-vertex contact.
+
+Compute and resolve the collision between the cube and the plane. All necessary formulas can be found in the slides of the constrained motion lecture.

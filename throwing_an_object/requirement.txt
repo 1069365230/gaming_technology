@@ -1,0 +1,1 @@
+Create an empty Scene. Spawn a cube when pressing the spacebar and send it flying by applying a short impulse of force. Also apply torque with the impulse to make the cube rotate. Don't forget to apply the force of gravitation while the cube is flying through the air.

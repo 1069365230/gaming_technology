@@ -1,0 +1,27 @@
+You have two tasks:
+
+1. Implement the iterative neighbor search in the support function of the Polytope::support() in Collider.h. As presented in the slides, the support mapping function of a polytope tries to find the supporting vector iteratively through neighbor search.
+
+Is this faster than the brute force search through all vertices that was used before?
+
+2. Collide two polytopes. One could be the ground, the other a more complex polytope.
+
+Use either SAT with coherence or Neighboring Faces to create the contact point set, as described in the slides 05b. A recorded presentation of this algorithm follows soon.
+
+
+
+You can use the following repository:  https://github.com/hlavacs/ViennaPhysicsEngine
+
+In the Git repo you can find a simple GJK / EPA implementation, taken from https://github.com/kevinmoran/GJK .
+
+Professor Hlavacs adapted the source so that glm is used instead of the given math library.
+
+In main.cpp you find how to collide two boxes, one of them is used as ground. 
+
+The resulting boolean specifies whether the boxes intersect. The output vector mtv gives the minimum translation vector, i.e. the vector you have to move the first box A such that it no more penetrates the ground, but touches the ground on the surface.
+
+There are more collider shapes, you can find them in  Collider.h. The most general is a Polytope, originally consisting only of the points, and a naive brute force method for computing the support vector mapping. I added support for neighbors, but this is not yet implemented -> see Collider.h, Polytope::support(), empty else branch. 
+
+Polytopes can store a list of edges and faces, and also for each vertex, which edges and faces it belongs to. Thus for each vertex you can also easily find all neighbor vertices.
+
+The file also shows how to collide a point, edge, triangle, or quad with a box (or any other collider, polytope).  Based on this you can compute the contact point set (see slides).
